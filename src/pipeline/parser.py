@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 
 from src.utils.paths import CADASTRO_DIR, EXTRACT_DIR, BASE_DIR
 
@@ -144,5 +145,8 @@ def procesar_todos():
     df_final = df_final[["cnpj", "razao_social", "Trimestre", "Ano", "ValorDespesas"]]
     df_final = pd.DataFrame(df_final)
 
-    df_final.to_csv(f"{BASE_DIR}/{'data'}/{'final'}/consolidado.csv", index=False)
+    pasta_final = Path(BASE_DIR / "data" / "final")
+    pasta_final.mkdir(parents=True, exist_ok=True)
+
+    df_final.to_csv(f"{pasta_final}/consolidado.csv", index=False)
     return df_final
