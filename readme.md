@@ -1,6 +1,6 @@
 ## Setup
 
-Utilizando de um ambiente virtual, instale os pacotes necessários para executar o projeto
+Utilizando de um ambiente virtual, instale os pacotes necessários para executar o projeto executando os comandos abaixo
 
 python -m venv venv
 source venv/bin/activate
