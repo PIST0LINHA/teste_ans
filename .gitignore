@@ -1,0 +1,18 @@
+# ambiente virtual
+venv/
+
+# cache python
+__pycache__/
+*.pyc
+
+# arquivos do sistema
+.DS_Store
+
+# dados baixados
+raw_data/
+extracted/
+cadastro/
+final/
+
+# essa jagunça aqui 
+git@github.com:PIST0LINHA/
