@@ -53,6 +53,15 @@ No arquivo `consolidado.csv` cadastros presentes nos registros contábeis mas n�
  
 ***
 
+# Limitações e Decisões de escopo
+
+Durante o desenvolvimento, algumas funcionalidades não foram implementadas devido a restrições de tempo e priorização de etapas mais críticas do projeto.
+
+Em especial:
+- Falta da criação de uma interface web e criação de API
+
+A decisão foi focar na finalização de todas as etapas possíveis, evitando entregar algo parcial ou frágil.
+
 # Executando o projeto
 
 1. Instale as dependências
